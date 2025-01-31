@@ -171,3 +171,39 @@ h1 {
     padding: 8px;
     border-radius: 20px;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer p {
+    font-size: 18px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 0px;
+}
+
+footer button {
+    padding: 20px 45px;
+    border-radius: 60px;
+    border: none;
+    margin: 0px;
+    align-items: center;
+    font-weight: 700;
+    position: relative;
+    font-size: 18px;
+    top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
